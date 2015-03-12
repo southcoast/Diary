@@ -40,6 +40,7 @@
     <preference name="android-minSdkVersion"      value="7" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 	<preference name="SplashScreen" value="screen" />
+	<preference name="AutoHideSplashScreen" value="false"/>
 	<preference name="SplashScreenDelay" value="10000" />
     <!--
         Define a specific version of PhoneGap to build into your app.
@@ -79,6 +80,7 @@
 		<icon src="res/android/xxhdpi/icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
 		<icon src="res/android/xxxhdpi/icon.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />
 
+		<gap:splash src="splash.png" />
 		<gap:splash src="res/android/splash-ldpi/screen.png" gap:platform="android" gap:qualifier="ldpi" />
 		<gap:splash src="res/android/splash-mdpi/screen.png" gap:platform="android" gap:qualifier="mdpi" />
 		<gap:splash src="res/android/splash-hdpi/screen.png" gap:platform="android" gap:qualifier="hdpi" />
